@@ -65,7 +65,7 @@ nlobj.Ts = Ts;
 % Prediction horizon p and control horizon m:
 % - p steps are used to predict behavior and evaluate cost/constraints.
 % - m steps are used to optimize the MV moves (after m, moves are held).
-nlobj.PredictionHorizon = 5;
+nlobj.PredictionHorizon = 10;
 nlobj.ControlHorizon    = 3;
 
 %% -------------------- Nonlinear Plant Model aircraftDynamicsCT.M CALLED IN SIMULINK IN SUBSYSTEM BLOCK --------------------

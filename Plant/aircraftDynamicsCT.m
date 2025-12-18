@@ -115,8 +115,8 @@ P = [u(1)*(1-eta_b*eta_c)/(eta_b*eta_c); % eq1:
     u(2)*cp*x(8);                        % eq8: 
     u(2)*cp*x(5);                        % eq9: 
     h_cp*A_s*(x(6)-x(7));                % eq10: 
-    (1-eta_g*eta_r)*u(5);                % eq11:
-    eta_g*eta_r*u(5);                    % eq12: 
+    (1-eta_g*eta_r)*u(2);                % eq11:
+    eta_g*eta_r*u(2);                    % eq12: 
     u(6)*(1-eta_m*eta_i)/(eta_m*eta_i);  % eq13: 
     h_cp*A_MD*(x(9)-x(10));              % eq14:
     u(2)*cp*x(7);                        % eq15: 
